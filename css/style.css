@@ -40,11 +40,9 @@ body {
   margin: 0 4px;
   position: relative;
   vertical-align: top;
+  cursor: pointer;
 }
 
-.picture {
-  position: relative;
-}
 .item img {
   width: 100%;
 }
@@ -70,4 +68,18 @@ body {
   right: 0;
   background-color: white;
   padding: 10px;
+}
+.picture {
+  position: relative;
+}
+
+.picture .aft-img {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.picture:hover .aft-img {
+  display: inline;
 }
