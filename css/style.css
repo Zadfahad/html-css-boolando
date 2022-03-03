@@ -1,0 +1,73 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* COMMON */
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 3em auto;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-green {
+  background-color: #00875a;
+}
+.row {
+  width: 100%;
+  margin-top: 2em;
+}
+.description {
+  font-weight: bolder;
+}
+.price {
+  color: red;
+}
+.disc {
+  color: black;
+  text-decoration: line-through;
+}
+/* item  */
+.item {
+  display: inline-block;
+  width: calc((100% / 3) - 12px);
+  margin: 0 4px;
+  position: relative;
+  vertical-align: top;
+}
+
+.picture {
+  position: relative;
+}
+.item img {
+  width: 100%;
+}
+
+.item .discount {
+  color: white;
+  padding: 1px 1px 1px 1px;
+  position: absolute;
+  top: 92%;
+  left: 0%;
+}
+.item .sostenibilita {
+  color: white;
+  position: absolute;
+  padding: 1px 1px 1px 1px;
+  top: 92%;
+  left: 40px;
+}
+
+.item .heart {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background-color: white;
+  padding: 10px;
+}
